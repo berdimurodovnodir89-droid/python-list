@@ -1,3 +1,3 @@
 name = ['Ali', 'Vali', 'Nodir','dilshod']
-name = name.index('Vali')
+name.pop(3)
 print(name)
