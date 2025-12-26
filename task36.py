@@ -1,7 +1,9 @@
-text = ['salom']
-if len(text) <= 3:
-    print('Harfli')
-elif 4 < len(text) < 6:
-    print('Harfli')
-elif len(text) > 6:
-    print(text)
+words = ["kitob", "dastur", "AI", "hello", "python"]
+
+max_word = words[0]
+for word in words:
+
+ if len(word) > len(max_word):
+    max_word = word
+
+print(max_word)
